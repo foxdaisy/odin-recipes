@@ -86,6 +86,20 @@ h2 {
     width: 30%;
 }
 
+/* set up the ingredients list */
+/* center an aligned left ingredients list */
+
+.list-center {
+    text-align: center;
+}
+
+.list-block {
+    display: inline-block;
+    text-align: left;
+}
+
+
+
 
 
 
