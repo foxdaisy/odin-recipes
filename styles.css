@@ -1,0 +1,73 @@
+
+/* set the background color of the page, padding and font */
+body {
+    background-color: #f4f7fa;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* set the size of the font, unless otherwise specified */
+* {
+    font-size: 18px;
+}
+
+/* set the specs of the green box */
+.green-box {
+    background-color: #8aab8e;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* set the specs of the menu */
+.green-box.menu {
+    text-align: center;
+}
+
+/* set the style for the recipes listed on homepage */
+.recipes-list {
+    font-size: 22px;
+    color: #f4f7fa;
+    text-decoration: none;
+    font-weight: 100; 
+}
+
+/* setting the specs of the headings */
+
+/* homepage title is bigger than all others */
+#site-title {
+    font-size: 50px;
+}
+
+/* h1 is slightly bigger than h2, and italic*/
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* all headings are green, bold and aligned to center */
+h1,
+h2 {
+    font-weight: 600;
+    color: #8aab8e;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
