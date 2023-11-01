@@ -51,6 +51,8 @@ h1 {
 
 h2 {
     font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 /* all headings are green, bold and aligned to center */
