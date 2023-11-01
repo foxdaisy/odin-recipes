@@ -98,7 +98,27 @@ h2 {
     text-align: left;
 }
 
+/* set up ingredients list background box */
 
+.transp {
+    background-color: #8aab8e;
+    color: white;
+    line-height: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/* change line space and padding on steps */
+
+ol {
+    line-height: 50px;
+    padding-bottom: 40px;
+    list-style-position: inside;
+}
+
+ol li {
+    text-align: center;
+}
 
 
 
