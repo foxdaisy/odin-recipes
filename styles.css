@@ -10,6 +10,7 @@ body {
 /* set the size of the font, unless otherwise specified */
 * {
     font-size: 18px;
+    text-align: left;
 }
 
 /* set the specs of the green box */
@@ -23,7 +24,7 @@ body {
 }
 
 /* set the specs of the menu */
-.green-box.menu {
+.green-box.menu p {
     text-align: center;
 }
 
