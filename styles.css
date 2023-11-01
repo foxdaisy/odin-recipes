@@ -2,9 +2,13 @@
 /* set the background color of the page, padding and font */
 body {
     background-color: #f4f7fa;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* add padding */
+.padded {
     padding-left: 12.5%;
     padding-right: 12.5%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /* set the size of the font, unless otherwise specified */
@@ -16,9 +20,6 @@ body {
 /* set the specs of the green box */
 .green-box {
     background-color: #8aab8e;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -91,6 +92,8 @@ h2 {
 
 .list-center {
     text-align: center;
+    color: white;
+    line-height: 30px;
 }
 
 .list-block {
@@ -100,12 +103,10 @@ h2 {
 
 /* set up ingredients list background box */
 
-.transp {
+.back-ing {
     background-color: #8aab8e;
-    color: white;
-    line-height: 30px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-bottom: 20px;
+    margin-top: 80px;
 }
 
 /* change line space and padding on steps */
@@ -120,8 +121,11 @@ ol li {
     text-align: center;
 }
 
+/* fix heading on block */
 
-
+.back-ing h2 {
+    color: white;
+}
 
 
 
