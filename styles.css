@@ -24,6 +24,11 @@ body {
     padding-bottom: 10px;
 }
 
+.green-box.menu {
+    margin-right: -25px;
+    margin-left: -25px;
+}
+
 /* set the specs of the menu */
 .green-box.menu p {
     text-align: center;
