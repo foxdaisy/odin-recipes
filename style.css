@@ -14,7 +14,6 @@ body {
 .container {
     border: 1px solid black; /* to debug */
     height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +24,11 @@ body {
 
 .recipe-card {
     background-color: #fff;
-    
+    width: 250px;
+    height: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .recipe-card h2 {
@@ -41,6 +44,12 @@ body {
 }
 
 .recipe-card .button-like {
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
     background-color: #d6536d;
     color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 8px;
 }
