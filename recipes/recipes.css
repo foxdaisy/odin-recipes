@@ -40,7 +40,7 @@ body {
     padding: 0px 30px;
 }
 
-.container {
+.recipe .container {
     margin: 30px auto 50px;
     padding: 20px 30px;
     max-width: 600px;
@@ -101,4 +101,20 @@ body {
 
 .steps li::marker {
     color: #d6536d;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 14px 30px 10px;
+
+    color: #ebe9e1;
+    background-color: #d6536d;
+}
+
+.footer img {
+    margin-left: 5px;
+    height: 3em;
 }
