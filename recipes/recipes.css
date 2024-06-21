@@ -35,3 +35,62 @@ body {
     font-family: "Berkshire Swash", sans-serif;
     font-size: 2em;
 }
+
+.recipe {
+    margin: 30px 10vw 50px;
+    max-width: 600px;
+}
+
+.recipe img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.recipe .title {
+    font-size: 2em;
+    font-weight: 700;
+    color: #d6536d;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-style: italic;
+}
+
+.recipe h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #d6536d;
+    margin-bottom: 10px;
+}
+
+.ingredients,
+.steps {
+    margin: 10px 0px 20px;
+}
+
+.ingredients ul li {
+    list-style-type: none;
+}
+
+.ingredients input {
+    margin-right: 10px;
+}
+
+.ingredients input[type="checkbox"] {
+    accent-color: #66adba;
+}
+
+.steps ol {
+    margin-left: 20px;
+}
+
+.steps li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.steps li::marker {
+    color: #d6536d;
+}
