@@ -36,7 +36,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    color: #ebe9e1;
+    color: #fff;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     font-family: "Berkshire Swash", serif;
     font-weight: 400;
@@ -93,7 +93,7 @@ body {
 
     padding: 14px 30px 10px;
 
-    color: #ebe9e1;
+    color: #fff;
     background-color: #d6536d;
 }
 

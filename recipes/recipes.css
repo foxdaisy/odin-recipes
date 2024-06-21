@@ -24,7 +24,7 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: #ebe9e1;
+    color: #fff;
 }
 
 .navbar a:hover {
@@ -110,7 +110,7 @@ body {
 
     padding: 14px 30px 10px;
 
-    color: #ebe9e1;
+    color: #fff;
     background-color: #d6536d;
 }
 
