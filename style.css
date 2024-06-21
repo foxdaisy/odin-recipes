@@ -81,12 +81,12 @@ body {
     border-radius: 8px;
 }
 
-.footer {
+.footer .container {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: 10px 30px;
+    padding: 14px 30px 10px;
 
     color: #ebe9e1;
     background-color: #d6536d;
