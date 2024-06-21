@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,7 @@ body {
 
 .header .container {
     position: relative;
+    text-align: center;
 }
 
 .header img {
@@ -19,7 +22,7 @@ body {
     height: 40vh;
     object-fit: cover;
     overflow: hidden;
-    filter: brightness(70%)
+    filter: brightness(65%);
 }
 
 .header h1 {
@@ -27,7 +30,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     color: #ebe9e1;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-size: 4em;
 }
 
 .recipes .container {
