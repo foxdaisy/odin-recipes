@@ -37,8 +37,16 @@ body {
 }
 
 .recipe {
-    margin: 30px 10vw 50px;
+    padding: 0px 30px;
+}
+
+.container {
+    margin: 30px auto 50px;
+    padding: 20px 30px;
     max-width: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .recipe img {
